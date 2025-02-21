@@ -27,7 +27,7 @@ export default function Header() {
       <div className="max-w-[1600px] mx-auto px-8 h-16 flex items-center justify-between">
         {/* Logo */}
         <a
-          href="/Portfolio"
+          href="#/"
           className="font-mono text-base tracking-widest hover:text-gray-600 transition-colors duration-200"
         >
           <span className="font-medium">RISHABAN</span>
