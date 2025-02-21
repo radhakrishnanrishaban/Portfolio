@@ -7,7 +7,7 @@ export default function ProfilePanel() {
       <div className="mb-8">
         <div className="w-32 h-32 rounded-full overflow-hidden">
           <img
-            src="src/assets/profile_img.JPG"
+            src="./src/assets/profile_img.JPG"
             alt="Profile"
             className="w-full h-full object-cover"
           />
@@ -25,10 +25,10 @@ export default function ProfilePanel() {
       {/* Email */}
       <div className="mb-8">
         <a
-          href="mailto:radha.rishaban@gmail.com"
+          href="mailto:radhadhakrishnanrishaban@gmail.com"
           className="text-sm text-gray-500 hover:text-gray-700"
         >
-          RADHA.RISHABAN@GMAIL.COM
+          RADHAKRISHNANRISHABAN@GMAIL.COM
         </a>
       </div>
 
@@ -41,7 +41,7 @@ export default function ProfilePanel() {
       {/* Social Links */}
       <div className="flex space-x-4 mb-8">
         <a
-          href="https://github.com/rishaban360"
+          href="https://github.com/radhadhakrishnanrishaban"
           className="text-gray-400 hover:text-gray-600"
         >
           <FaGithub className="w-5 h-5" />
@@ -53,7 +53,7 @@ export default function ProfilePanel() {
           <FaLinkedin className="w-5 h-5" />
         </a>
         <a
-          href="mailto:radha.rishaban@gmail.com"
+          href="mailto:radhadhakrishnanrishaban@gmail.com"
           className="text-gray-400 hover:text-gray-600"
         >
           <FaEnvelope className="w-5 h-5" />

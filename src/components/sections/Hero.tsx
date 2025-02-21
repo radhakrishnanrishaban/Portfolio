@@ -43,7 +43,7 @@ export default function Hero() {
         <p className="text-sm text-gray-500">
           Source available{" "}
           <a
-            href="https://github.com/rishaban360"
+            href="https://github.com/radhakrishnanrishaban"
             className="text-gray-500 hover:text-gray-700 underline decoration-gray-300"
           >
             here

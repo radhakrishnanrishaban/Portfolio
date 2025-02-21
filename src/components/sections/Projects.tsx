@@ -9,7 +9,7 @@ export default function Projects() {
       description:
         "An end-to-end ML solution for predicting energy consumption patterns.",
       tags: ["Python", "MLOps", "Machine Learning"],
-      image: "/portfolio/src/assets/test_project1.png",
+      image: "./src/assets/test_project1.png",
       slug: "/projects/energy-forecasting",
       status: "completed",
       timeline: "2024",
@@ -21,7 +21,7 @@ export default function Projects() {
       description:
         "Homewatt Analytics is a platform for analyzing household   energy consumption data.",
       tags: ["Data Analysis", "Visualization", "Python"],
-      image: "/portfolio/src/assets/test_project2.png",
+      image: "./src/assets/test_project2.png",
       slug: "/projects/homewatt-analytics",
       status: "in-progress",
       timeline: "2024-Present",

@@ -44,7 +44,7 @@ export default function Contact() {
 
           <div className="mt-16 flex justify-center space-x-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/radhakrishnanrishaban"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition"
@@ -52,7 +52,7 @@ export default function Contact() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/rishaban-radhakrishnan-38047418b/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition"
@@ -60,7 +60,7 @@ export default function Contact() {
               LinkedIn
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:radhadhakrishnanrishaban@gmail.com"
               className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition"
             >
               Email
