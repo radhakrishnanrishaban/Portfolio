@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages --dotfiles -d dist"
+    "deploy": "gh-pages -d dist -t true"
   },
   "dependencies": {
     "@fontsource/inter": "^5.1.1",
