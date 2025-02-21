@@ -6,11 +6,11 @@ import ProjectLayout from "./components/layout/ProjectLayout";
 export const router = createBrowserRouter(
   [
     {
-      path: "/Portfolio",
+      path: "/",
       element: <App />,
     },
     {
-      path: "/Portfolio/projects",
+      path: "/projects",
       element: <ProjectLayout />,
       children: [
         {
