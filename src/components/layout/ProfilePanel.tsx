@@ -7,7 +7,7 @@ export default function ProfilePanel() {
       <div className="mb-8">
         <div className="w-32 h-32 rounded-full overflow-hidden">
           <img
-            src="./src/assets/profile_img.JPG"
+            src="/Portfolio/assets/profile_img.JPG"
             alt="Profile"
             className="w-full h-full object-cover"
           />
