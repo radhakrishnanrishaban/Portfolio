@@ -1,0 +1,21 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* Accounts for fixed header + some spacing */
+  }
+
+  body {
+    @apply bg-background-light dark:bg-background-dark text-gray-900 dark:text-gray-100 min-h-screen;
+  }
+}
