@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { images } from "../../assets";
 
 export default function Projects() {
   const projects = [
@@ -9,7 +10,7 @@ export default function Projects() {
       description:
         "An end-to-end ML solution for predicting energy consumption patterns.",
       tags: ["Python", "MLOps", "Machine Learning"],
-      image: "/Portfolio/assets/test_project1.png",
+      image: images.project1,
       slug: "/projects/energy-forecasting",
       status: "completed",
       timeline: "2024",
@@ -21,7 +22,7 @@ export default function Projects() {
       description:
         "Homewatt Analytics is a platform for analyzing household   energy consumption data.",
       tags: ["Data Analysis", "Visualization", "Python"],
-      image: "/Portfolio/assets/test_project2.png",
+      image: images.project2,
       slug: "/projects/homewatt-analytics",
       status: "in-progress",
       timeline: "2024-Present",

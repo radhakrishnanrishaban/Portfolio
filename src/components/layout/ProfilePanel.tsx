@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { images } from "../../assets";
 
 export default function ProfilePanel() {
   return (
@@ -7,7 +8,7 @@ export default function ProfilePanel() {
       <div className="mb-8">
         <div className="w-32 h-32 rounded-full overflow-hidden">
           <img
-            src="/Portfolio/assets/profile_img.JPG"
+            src={images.profile}
             alt="Profile"
             className="w-full h-full object-cover"
           />
