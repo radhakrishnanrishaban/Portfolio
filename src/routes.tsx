@@ -2,6 +2,7 @@ import { createHashRouter } from "react-router-dom";
 import App from "./App";
 import EnergyForecasting from "./pages/projects/EnergyForecasting";
 import ProjectLayout from "./components/layout/ProjectLayout";
+import Resume from "./components/sections/Resume";
 
 export const router = createHashRouter([
   {
@@ -17,5 +18,9 @@ export const router = createHashRouter([
         element: <EnergyForecasting />,
       },
     ],
+  },
+  {
+    path: "/resume",
+    element: <Resume />,
   },
 ]);
