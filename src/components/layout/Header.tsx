@@ -14,10 +14,11 @@ export default function Header() {
   }, []);
 
   const navItems = [
+    { label: "HOME", to: "/" },
     { label: "PROJECTS", to: "/projects" },
     { label: "RESUME", to: "/resume" },
-    { label: "ABOUT", to: "/#about" },
-    { label: "CONTACT", to: "/#contact" },
+    { label: "ABOUT", to: "/about" },
+    { label: "CONTACT", to: "/contact" },
   ];
 
   return (
