@@ -9,7 +9,7 @@ export default function Footer() {
           </div>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/radhakrishnanrishaban"
               className="text-gray-600 dark:text-gray-400 hover:text-primary-500"
             >
               <span className="sr-only">GitHub</span>
@@ -22,7 +22,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="linkedin.com/in/rishaban-radhakrishnan-38047418b"
               className="text-gray-600 dark:text-gray-400 hover:text-primary-500"
             >
               <span className="sr-only">LinkedIn</span>

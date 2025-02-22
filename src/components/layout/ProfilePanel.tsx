@@ -3,10 +3,10 @@ import { images } from "../../assets";
 
 export default function ProfilePanel() {
   return (
-    <div className="p-12">
+    <div className="p-4 lg:p-12">
       {/* Profile Image */}
-      <div className="mb-8">
-        <div className="w-32 h-32 rounded-full overflow-hidden">
+      <div className="mb-4 lg:mb-8 flex justify-center lg:justify-start">
+        <div className="w-24 h-24 lg:w-32 lg:h-32 rounded-full overflow-hidden">
           <img
             src={images.profile}
             alt="Profile"
@@ -16,9 +16,11 @@ export default function ProfilePanel() {
       </div>
 
       {/* Name and Title */}
-      <div className="mb-8">
-        <h1 className="font-mono text-2xl mb-3">RISHABAN RADHAKRISHNAN</h1>
-        <p className="text-sm text-gray-600 uppercase tracking-wide">
+      <div className="mb-4 lg:mb-8 text-center lg:text-left">
+        <h1 className="font-mono text-xl lg:text-2xl mb-2 lg:mb-3">
+          RISHABAN RADHAKRISHNAN
+        </h1>
+        <p className="text-xs lg:text-sm text-gray-600 uppercase tracking-wide">
           DATA SCIENTIST & ML ENGINEER
         </p>
       </div>

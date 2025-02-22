@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -13,10 +14,10 @@ export default function Header() {
   }, []);
 
   const navItems = [
-    { label: "PROJECTS", href: "#projects" },
-    { label: "RESUME", href: "#resume" },
-    { label: "ABOUT", href: "#about" },
-    { label: "CONTACT", href: "#contact" },
+    { label: "PROJECTS", to: "/projects" },
+    { label: "RESUME", to: "/resume" },
+    { label: "ABOUT", to: "/#about" },
+    { label: "CONTACT", to: "/#contact" },
   ];
 
   return (
@@ -38,12 +39,12 @@ export default function Header() {
         <nav className="flex items-center space-x-1">
           {navItems.map((item, index) => (
             <div key={item.label} className="flex items-center">
-              <a
-                href={item.href}
+              <Link
+                to={item.to}
                 className="px-5 py-2 text-sm text-gray-600 hover:text-gray-900 tracking-wider"
               >
                 {item.label}
-              </a>
+              </Link>
               {index < navItems.length - 1 && (
                 <div className="h-4 w-px bg-gray-200" />
               )}

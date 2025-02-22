@@ -12,14 +12,14 @@ export default function Layout({ children }: LayoutProps) {
     <div className="min-h-screen bg-[#f2f0ed]">
       <Header />
 
-      <div className="flex">
-        {/* Left Profile Panel - Fixed */}
-        <div className="fixed w-[400px] left-12 top-16 h-[calc(100vh-4rem)] overflow-y-auto">
+      <div className="flex flex-col lg:flex-row">
+        {/* Left Profile Panel - Fixed on desktop, scrollable on mobile */}
+        <div className="w-full lg:fixed lg:w-[400px] lg:left-12 lg:top-16 lg:h-[calc(100vh-4rem)] overflow-y-auto">
           <ProfilePanel />
         </div>
 
         {/* Right Content Area - Flexible sizing */}
-        <div className="flex-1 ml-[calc(400px+3rem)] mr-16">
+        <div className="flex-1 px-4 lg:ml-[calc(400px+3rem)] lg:mr-16">
           <div className="max-w-5xl mx-auto">
             {React.Children.map(children, (child, index) => (
               <>
@@ -27,8 +27,8 @@ export default function Layout({ children }: LayoutProps) {
                   <div className="h-px bg-gray-200 mx-auto w-full" />
                 )}
                 <section className="min-h-screen">
-                  <div className="bg-white shadow-sm w-full mt-24">
-                    <div className="px-12 py-16">{child}</div>
+                  <div className="bg-white shadow-sm w-full mt-8 lg:mt-24">
+                    <div className="px-4 py-8 lg:px-12 lg:py-16">{child}</div>
                   </div>
                 </section>
               </>
